@@ -60,16 +60,26 @@ UN_BAN_COMMAND = get_config("UN_BAN_COMMAND", "unban")
 START_COMMAND = get_config("START_COMMAND", "start")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Hi. ☺️\n"
+    "Hi.{fullname} ☺️\n"
     "Thank you for using me 😬\n\n"
-    "This is an Open Source Project available on "
-    "https://github.com/SpEcHIDe/NoPMsBot\n\n\n"
-    "If you are the owner of this bot, "
-    "and are seeing this message 🤦‍♂️, "
-    "means that you have not set up "
-    "the ENVironment variables properly "
-    "for the bot to function.\n\n\n"
-    "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+    "This user @Rihu_mone 's assistant bot"
+    "ID: 1600532722
+First Name: ➽
+Username: @Rihu_mone
+Permalink: link
+Presence: Detected
+
+Health: 70/100
+[■■■■■■■□□□ 70%]
+
+Malicious: ???
+
+Blacklisted: No
+
+Globally Muted : No
+
+╘══「 Groups count: 0 」.\n\n\n"
+    "ℹ️ join @English_chatting_club_Global if you 😍 using this bot❗️❣️"
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
@@ -81,9 +91,9 @@ ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
         "i am online <b>master</b>\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHiDe/NoPMsBot\n\n\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        "Owner of the bot"
+        "@Rihu_mone\n\n\n"
+        "ℹ️ join @English_chatting_club_Global if you 😍 using this bot❗️❣️"
     )
 )
 # message to indicate,
@@ -95,7 +105,7 @@ DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
         "this message was deleted\n\n"
         "This is an Open Source Project available on "
         "https://github.com/SpEcHiDe/NoPMsBot\n\n\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        "ℹ️ owner  @Rihu_mone ❣️"
     )
 )
 # IDEKWBYRW
